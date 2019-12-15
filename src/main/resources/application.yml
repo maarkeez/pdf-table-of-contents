@@ -1,0 +1,5 @@
+bookmarks:
+  - pageNumber: 1
+    message: "This is my first bookmark"
+  - pageNumber: 2
+    message: "This is my second bookmark"
