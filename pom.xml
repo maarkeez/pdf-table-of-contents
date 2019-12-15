@@ -11,7 +11,7 @@
   </parent>
   <groupId>com.pdf</groupId>
   <artifactId>pdf-table-of-contents</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>pdf-table-of-contents</name>
   <description>Demo project for Spring Boot</description>
 
@@ -61,4 +61,11 @@
     </plugins>
   </build>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub maarkeez Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/maarkeez/pdf-table-of-contents</url>
+    </repository>
+  </distributionManagement>
 </project>
